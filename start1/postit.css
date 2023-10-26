@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 5em 23em;
+}
+
+.container {
+  padding: 1em 1.4em;
+  margin-inline: auto;
+  background-color: #898989;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 413.55px;
+}
+
+.post-it {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  row-gap: 10px;
+  align-items: center;
+  flex-basis: 16.7%;
+  /* background-color: yellow; */
+  padding: 3.9em 2em;
+  box-shadow: 3px 3px 9px 0px;
+  font-family: 'Architects Daughter', cursive;
+  transition: transform 600ms;
+  
+ 
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+#n1 {
+  transform: rotate(355deg) scale(0.85);
+  background: linear-gradient(
+    0deg,
+    #b1b042 0%,
+    #f5f351 26%,
+    #f5f351 100%
+  );
+  animation: 
+}
+
+#n2 {
+  transform: rotate(5deg) scale(0.85) translateY(-4.8px);
+  background: linear-gradient(
+    0deg,
+    #93b76f 0%,
+    #c7fa95 26%,
+    #c7fa95 100%
+  )
+}
+
+#n3 {
+  transform: rotate(353deg) scale(0.85) translateY(-2px);
+  background: linear-gradient(
+    0deg,
+    #9a86b3 0%,
+    #d9bbff 26%,
+    #d9bbff 100%
+  )
+  
+}
+
+#n3:hover{
+  transform: scale(1.1);
+  transition: transform 600ms;
+  z-index: 1;
+}
+
+#n4 {
+  transform: rotate(9deg) scale(0.85) translateY(-10px);
+  background: linear-gradient(
+    0deg,
+    #93b76f 0%,
+    #c7fa95 26%,
+    #c7fa95 100%
+  )
+}
+
+#n5 {
+  transform: rotate(355deg) scaleY(0.85) scaleX(0.83);
+  background: linear-gradient(
+    0deg,
+    #b1b042 0%,
+    #f5f351 26%,
+    #f5f351 100%
+  )
+}
+
+#n6 {
+  transform: rotate(350deg) scale(0.85) translateY(-2px);
+  background: linear-gradient(
+    0deg,
+    #9a86b3 0%,
+    #d9bbff 26%,
+    #d9bbff 100%
+  )
+}
+
+#n7 {
+  transform: rotate(355deg) scale(0.85);
+  background: linear-gradient(
+    0deg,
+    #b1b042 0%,
+    #f5f351 26%,
+    #f5f351 100%
+  )
+}
+
+#n8 {
+  transform: rotate(5deg) scale(0.85) translateY(-4.8px);
+  background: linear-gradient(
+    0deg,
+    #93b76f 0%,
+    #c7fa95 26%,
+    #c7fa95 100%
+  )
+}
+
